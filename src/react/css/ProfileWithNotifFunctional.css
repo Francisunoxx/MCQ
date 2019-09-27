@@ -1,0 +1,25 @@
+.divBody {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+
+.divProfile, .divNotif {
+    height: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.divProfile>.divName, .divProfile>.divPosition {
+    height: 35%;
+}
+
+.divName>h3, .divPosition>h3 {
+    margin-left: 10px;
+}
+
+.divNotifBody>h3 {
+    margin-left: 10px;
+}

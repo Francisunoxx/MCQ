@@ -1,0 +1,104 @@
+.divTasksList {
+    height: 83%;
+    width: 98%;
+    margin: 1%;
+    overflow: hidden;
+    border-radius: 3px;
+}
+
+.divTasksList>.divTaskBody {
+    height: 100%;
+    width: 100%;
+}
+
+.divTaskBody>.divBody {
+    height: 93%;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+}
+
+.divTaskBody>.divHeader {
+    height: 7%;
+    display: flex;
+    align-items: center;
+    background-color: #ffffff;
+    border-bottom: solid #039be5 1px;
+    border-left: solid #039be5 1px;
+}
+
+.divHeader>img {
+    margin-left: 5px;
+    height: 30px;
+}
+
+.divHeader>h4 {
+    margin-left: 10px;
+}
+
+.divFirst, .divSecond {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.divSecond {
+    flex-direction: row;
+}
+
+.divFirst>.divPrevious, .divFirst>.divNext {
+    height: 100%;
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.divFirst>.divPrevious>img, .divFirst>.divNext>img {
+    height: 20%;
+}
+
+.divFirst>.divCurrentTask {
+    height: 100%;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.divFirst>.divCurrentTask>img {
+    width: 100%;
+    height: 90%;
+}
+
+.divSecond {
+    display: flex;
+    flex-direction: column;
+}
+
+.divSecond>.divActions {
+    height: 20%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.divActions>img {
+    height: 50%;
+    margin: 5px;
+}
+
+.divSecond>.divNextCurrentTask {
+    height: 80%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.divNextCurrentTask>img {
+    height: 70%;
+}

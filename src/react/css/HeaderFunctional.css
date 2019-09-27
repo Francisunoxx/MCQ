@@ -1,0 +1,88 @@
+
+img {
+    height: 55%;
+}
+
+.divHeaderContainer {
+    height: 6%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    background-color: #039be5;
+}
+
+.divHeaderNavigator {
+    width: 10%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin-right: auto;
+    margin-left: 5px;
+}
+
+.divHeaderNavigator>h4 {
+    margin: 0;
+    color: white;
+}
+
+.divHeaderNavigator>h4 {
+    margin-right: 15px;
+}
+
+.divHeaderNotifications {
+    height: 100%;
+    width: 20%;
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
+
+.divHeaderNotifications>div {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.divHeaderNotifications>div:nth-child(3) {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+.divHeaderNotifications>div:nth-child(1), .divHeaderNotifications>div:nth-child(2) {
+    width: 10%;
+    margin-right: 5px;
+}
+
+.divHeaderNotifications>div:nth-child(3) {
+    width: 80%;
+    margin-right: 5px;
+}
+
+.divHeaderNotifications>div:nth-child(3) {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.divHeaderNotifications>div:nth-child(3)>h4 {
+    margin: 0;
+    color: white;
+}
+
+.divHeaderNotifications>div:nth-child(4) {
+    width: 10%;
+    margin-right: 5px;
+}
+
+.divHeaderNotifications>div>h3 {
+    margin-right: 5px;
+}
+
+.divHeaderNotifications>div>.imgLogout {
+    margin-left: auto;
+}

@@ -1,0 +1,21 @@
+.divTaskContainer {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    background-color: #d2d2d2;
+    flex-direction: column;
+}
+
+.divTaskBody {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.divTaskBody>.divNewTask, .divTaskBody>.divListTask {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}

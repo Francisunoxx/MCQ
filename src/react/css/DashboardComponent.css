@@ -1,0 +1,51 @@
+img {
+    cursor: pointer;
+}
+
+.divDashboardContainer {
+    height: 100%;
+    width: 100%;
+}
+
+.divDashboardBody {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+
+.divDashboardContent {
+    height: 100%;
+    width: 80%;
+}
+
+.divDashboardMain {
+    height: 100%;
+    width: 85%;
+    background-color: #d2d2d2;
+}
+
+.divDashboardMain>.divDashboardHeader {
+    margin: 1%;
+    height: 6%;
+    width: 98%;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    border-bottom: solid #039be5 1px;
+    border-left: solid #039be5 1px;
+    background: #ffffff;
+    border-radius: 3px;
+}
+
+.divDashboardHeader>img, .divHeader>img {
+    margin-left: 5px;
+    height: 30px;
+}
+
+.divDashboardHeader>h4 {
+    margin-left: 10px;
+    color: black;
+}
+

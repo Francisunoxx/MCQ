@@ -1,0 +1,62 @@
+.divBody {
+    height: 100%;
+    width: 100%;
+}
+
+.divBody>table {
+    height: 100%;
+    width: 100%;
+}
+
+.divBody>table>tbody>tr>td {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.tableHeader {
+    column-span: 2;
+}
+
+.divTableHeader {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.headerInquiry {
+    width: 15%;
+}
+
+.divTableHeader>img {
+    height: 4%;
+    position: absolute;
+    right: 19%;
+}
+
+.divTableData {
+    height: 55%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.divTableData>input {
+    height: 45%;
+    border: thin solid rgb(207, 207, 207);
+    border-radius: 3px;
+    margin-right: 5px;
+}
+
+.divTableData>button {
+    height: 40%;
+    border: none;
+    border-radius: 3px;
+    background: #4cb050;
+    color: white;
+}
+
+.divBody>table>tbody>tr>td>img {
+    height: 5%;
+}

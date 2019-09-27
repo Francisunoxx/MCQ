@@ -1,0 +1,41 @@
+.divMyTaskContainer {
+    height: 50%;
+    width: 100%;
+    margin-top: 1%;
+    display: flex;
+    align-items: center;
+}
+
+.divMyTaskBody {
+    height: 100%;
+    width: 100%;
+    margin: 1%;
+    overflow: hidden;
+    border-radius: 3px;
+    background-color: #ffffff;
+}
+
+.divHeader {
+    height: 9.9%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: #ffffff;
+    border-bottom: solid #039be5 1px;
+}
+
+.divHeader>img {
+    height: 80%;
+    margin-left: 5px;
+}
+
+.divHeader>h3 {
+    color: black;
+    margin-left: 5px;
+}
+
+.divTasks {
+    height: 90.4%;
+    width: 100%;
+    display: flex;
+}

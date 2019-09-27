@@ -1,0 +1,34 @@
+.divTaskBody{
+    height: 100%;
+    width: 50%;
+    display: flex;
+}
+
+.divBody>.divFirstRow {
+    height: 100%;
+    width: 50%;
+}
+
+.divPrevious, .divNext {
+    height: 100%;
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.divPrevious>img, .divNext>img {
+    height: 10%;
+}
+
+.divCurrentTask {
+    height: 100%;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.divCurrentTask>img {
+    width: 100%;
+    height: 90%;
+}

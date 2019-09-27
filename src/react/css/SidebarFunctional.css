@@ -1,0 +1,83 @@
+.divDashboardSideBar {
+    height: 100%;
+    width: 15%;
+}
+
+.divDashboardSideBar>.divMenu {
+    height: 30%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    border-bottom: solid #039be5 1px;
+}
+
+.divMenu>.divMenuContainer {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+.divMenuContainer>.divIcon {
+    width: 20%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.divIcon>img {
+    height: 25px;
+}
+
+.divMenuContainer>.divText {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.divText>h5 {
+    margin: 0;
+    color: black;
+    margin-left: 10px;
+}
+
+.divMenuContainer>.divNotif {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.divNotif>img {
+    height: 25px;
+    margin-right: 5px;
+}
+
+.divDashboardSideBar>.divTasks {
+    height: 70%;
+    width: 100%;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.divTasks>.divTasksContainer {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+.divTasksContainer>.divTaskBody {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.divTaskBody>h5 {
+    margin-right: auto;
+    margin-left: 10px;
+}
