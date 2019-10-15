@@ -1,21 +1,108 @@
 .divTaskContainer {
-    height: 100%;
-    width: 100%;
-    display: flex;
-    background-color: #d2d2d2;
-    flex-direction: column;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  background-color: #d2d2d2;
+  flex-direction: column;
+  overflow-y: auto;
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
 }
 
-.divTaskBody {
-    height: 100%;
-    width: 100%;
-    display: flex;
-    flex-direction: row;
+.divTaskContainer > .divTaskBody {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
-.divTaskBody>.divNewTask, .divTaskBody>.divListTask {
-    height: 100%;
-    width: 50%;
-    display: flex;
-    flex-direction: column;
+.divTaskBody > .divTaskHeader {
+  height: 7%;
+  width: 99%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.divTaskBody > .divTask {
+  height: 89%;
+  width: 99%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  margin-top: 0.5%;
+}
+
+.divTask > .divMyCreatedTaskContainer {
+  height: 100%;
+  width: 70%;
+  margin-right: 0.5%;
+}
+
+.divTask > .divTeamRosterContainer {
+  height: 100%;
+  width: 30%;
+}
+
+.divMyCreatedTaskContainer > .divHeader,
+.divTeamRosterContainer > .divHeader {
+  height: 6%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  background-color: #ffffff;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  border-bottom: solid #039be5 1px;
+}
+
+.divHeader > img {
+  height: 20px;
+  margin-left: 8px;
+}
+
+.divHeader > h4 {
+  color: black;
+  margin-left: 5px;
+}
+
+.divHeader > button {
+  margin-left: auto;
+  margin-right: 10px;
+  height: 70%;
+  width: 11%;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  background: #9d27b0;
+  cursor: pointer;
+}
+
+.divTaskBody > .divLegend {
+  height: 10%;
+  width: 99%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 0.5%;
+}
+
+.divLegend > .divLegendHeader {
+  height: 47%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  background-color: #ffffff;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  border-bottom: solid #039be5 1px;
+}
+
+.divLegendHeader > h4 {
+  margin-left: 5px;
 }

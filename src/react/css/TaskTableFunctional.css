@@ -1,62 +1,117 @@
 .divBody {
-    height: 100%;
-    width: 100%;
+  height: 100%;
+  width: 100%;
 }
 
-.divBody>table {
-    height: 100%;
-    width: 100%;
+.divBody > .divHeader {
+  height: 11%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  border: solid #039be5 1px;
+  background: #ffffff;
+  border-radius: 3px;
 }
 
-.divBody>table>tbody>tr>td {
-    text-align: center;
-    vertical-align: middle;
+.divHeader > .divTabMyTasks {
+  height: 100%;
+  width: 8%;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
 }
 
-.tableHeader {
-    column-span: 2;
+.divTabMyTasks > img {
+  margin-left: 5px;
+  height: 30px;
+}
+
+.divTabMyTasks > h4 {
+  margin-left: 5px;
+  color: black;
+}
+
+.divHeader > .divTeamTasks {
+  height: 100%;
+  width: 8%;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  margin-left: auto;
+}
+
+.divTeamTasks > button {
+  height: 70%;
+  width: 80%;
+  border: none;
+  border-radius: 3px;
+  background: #9d27b0;
+  color: white;
+  cursor: pointer;
+}
+
+.divBody > .divTable {
+  height: 89%;
+  width: 100%;
+  display: block;
+  overflow-y: auto;
+}
+
+.divTable > table {
+  height: 100%;
+  width: 100%;
+}
+
+.divTable > table > tbody > tr {
+  height: 45px;
+}
+
+.divTable > table > tbody > tr > td {
+  text-align: center;
+  vertical-align: middle;
 }
 
 .divTableHeader {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .headerInquiry {
-    width: 15%;
+  width: 20%;
 }
 
-.divTableHeader>img {
-    height: 4%;
-    position: absolute;
-    right: 19%;
+.divTableHeader > img {
+  height: 25px;
+  margin-right: 5px;
 }
 
 .divTableData {
-    height: 55%;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.divTableData>input {
-    height: 45%;
-    border: thin solid rgb(207, 207, 207);
-    border-radius: 3px;
-    margin-right: 5px;
+.divTableData > input {
+  height: 60%;
+  width: 100%;
+  border: thin solid rgb(207, 207, 207);
+  border-radius: 3px;
+  margin-right: 5px;
 }
 
-.divTableData>button {
-    height: 40%;
-    border: none;
-    border-radius: 3px;
-    background: #4cb050;
-    color: white;
+.divTableData > button {
+  height: 60%;
+  border: none;
+  border-radius: 3px;
+  background: #4cb050;
+  color: white;
 }
 
-.divBody>table>tbody>tr>td>img {
-    height: 5%;
+.divTable > table > tbody > tr > td > img {
+  height: 5%;
 }

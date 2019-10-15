@@ -1,26 +1,19 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import Routes from './Routes';
-
-/*const httpLink = createHttpLink({
-    uri: 'http://localhost:4000'
-})
+import React from "react";
+import ApolloClient from "apollo-boost";
+import { ApolloProvider } from "@apollo/react-hooks";
+import ReactDOM from "react-dom";
+import Routes from "./Routes";
+require("react-datepicker/dist/react-datepicker-cssmodules.css");
 
 const client = new ApolloClient({
-    link: httpLink,
-    cache: new InMemoryCache()
-})
+  uri: "http://localhost:4000"
+});
 
 ReactDOM.render(
-    <ApolloProvider client={client}>
-        <Routes />
-    </ApolloProvider>,
-    document.getElementById('index')
-);*/
-
-ReactDOM.render(
-        <Routes />,
-    document.getElementById('index')
+  <ApolloProvider client={client}>
+    <Routes />
+  </ApolloProvider>,
+  document.getElementById("index")
 );
 
 // If you want your app to work offline and load faster, you can change

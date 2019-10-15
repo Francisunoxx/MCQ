@@ -1,41 +1,82 @@
 .divMyTaskContainer {
-    height: 50%;
-    width: 100%;
-    margin-top: 1%;
-    display: flex;
-    align-items: center;
+  height: 59%;
+  width: 100%;
+  display: flex;
+  align-items: center;
 }
 
 .divMyTaskBody {
-    height: 100%;
-    width: 100%;
-    margin: 1%;
-    overflow: hidden;
-    border-radius: 3px;
-    background-color: #ffffff;
-}
-
-.divHeader {
-    height: 9.9%;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    background-color: #ffffff;
-    border-bottom: solid #039be5 1px;
-}
-
-.divHeader>img {
-    height: 80%;
-    margin-left: 5px;
-}
-
-.divHeader>h3 {
-    color: black;
-    margin-left: 5px;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+  background-color: #ffffff;
 }
 
 .divTasks {
-    height: 90.4%;
-    width: 100%;
-    display: flex;
+  height: 92%;
+  width: 100%;
+  display: block;
+  overflow-y: auto;
+  margin-top: 1px;
+}
+
+.divTasks > table {
+  height: 100%;
+  width: 100%;
+  margin-top: 5px;
+  border-spacing: 0;
+}
+
+.divTasks > table > thead > tr > th {
+  font-size: 0.83em;
+}
+
+.divTasks > table > tbody > tr > td {
+  text-align: center;
+  vertical-align: middle;
+}
+
+.divTasks > table > tbody > tr:hover {
+  background-color: #ededed;
+}
+
+.borderBottom {
+  border-bottom: 1px solid #d8dcde;
+}
+
+.checked {
+  height: 27px;
+}
+
+.divTableHeader > img {
+  height: 25px;
+  margin: 5px;
+}
+
+.divPaginationContainer {
+  height: 8%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-top: solid #039be5 1px;
+}
+
+.divPaginationContainer > .divPagination {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.divPagination > img {
+  height: 65%;
+  margin: 5px;
+}
+
+.divPagination > label {
+  font-size: 15px;
 }

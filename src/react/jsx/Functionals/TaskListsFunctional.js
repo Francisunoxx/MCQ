@@ -1,6 +1,6 @@
 import React from 'react';
 import { compose, withStateHandlers } from 'recompose';
-import Test from '../../assets/Test.jpg';
+import Test1 from "../../assets/Test1.jpg";
 import RightArrow from '../../assets/Right-Arrow.svg';
 import LeftArrow from '../../assets/Left-Arrow.svg';
 import style from '../../css/TaskListsFunctional.css';
@@ -12,7 +12,7 @@ const TaskLists = (props) => {
                 <img src={LeftArrow} />
             </div>
             <div className={style.divCurrentTask}>
-                <img src={Test} onClick={props.onClickTask} />
+                <img src={Test1} onClick={props.onClickTask} />
             </div>
             <div className={style.divNext}>
                 <img src={RightArrow} />

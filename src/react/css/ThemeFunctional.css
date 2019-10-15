@@ -1,0 +1,52 @@
+.divContainer {
+  height: 20%;
+  width: 10%;
+  background: #ffffff;
+  position: absolute;
+  top: 5%;
+  right: 3%;
+  border-radius: 3px;
+  border: solid 1px lightgray;
+  display: none;
+  flex-direction: column;
+  z-index: 1;
+}
+
+.divContainer > .divHeader {
+  height: 20%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.divHeader > p {
+  margin: 0;
+  margin-top: 2px;
+  position: absolute;
+  right: 2%;
+  cursor: pointer;
+}
+
+.divContainer > .divBody {
+  height: 80%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.divThemeBody {
+  height: 20%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.divThemeBody > .divLabel {
+  height: 100%;
+  width: 30%;
+  display: flex;
+  align-items: center;
+}

@@ -1,30 +1,35 @@
-import React, { Component } from 'react';
-import Header from '../Functionals/HeaderFunctional';
-import Profile from '../Functionals/ProfileWithNotifFunctional';
-import TaskLists from '../Functionals/TaskListsFunctional';
-import TaskTable from '../Functionals/TaskTableFunctional';
-import style from '../../css/OnGoingTaskComponent.css';
-
+import React, { Component } from "react";
+import Header from "../Functionals/HeaderFunctional";
+import TaskLists from "../Functionals/TaskListsFunctional";
+import TaskTable from "../Functionals/TaskTableFunctional";
+import style from "../../css/OnGoingTaskComponent.css";
 
 class OnGoingTaskComponent extends Component {
+  constructor(props) {
+    super(props);
 
+    this.state = {
+      theme: ""
+    };
 
-    render() {
-        return (
-            <div className={style.divContainer}>
-                <Header />
-                <div className={style.divBody}>
-                    <div className={style.divFirstRow}>
-                        <Profile />
-                        <TaskLists />
-                    </div>
-                    <div className={style.divSecondRow}>
-                        <TaskTable />
-                    </div>
-                </div>
-            </div>
-        )
-    }
+    this.changeTheme = this.changeTheme.bind(this);
+  }
+
+  changeTheme(theme) {
+    this.setState({ theme: theme });
+  }
+
+  render() {
+    return (
+      <div className={style.divContainer}>
+        <Header changeTheme={this.changeTheme} />
+        <div className={style.divBody}>
+          <TaskLists />
+          <TaskTable />
+        </div>
+      </div>
+    );
+  }
 }
 
 export default OnGoingTaskComponent;

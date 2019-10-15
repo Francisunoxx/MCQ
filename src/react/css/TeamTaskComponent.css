@@ -1,0 +1,16 @@
+.divTeamTaskContainer {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    background-color: #d2d2d2;
+    flex-direction: column;
+    overflow-y: auto;
+}
+
+.divTeamTaskBody{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}

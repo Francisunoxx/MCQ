@@ -1,0 +1,57 @@
+.divRosterContainer {
+  height: 94%;
+  width: 100%;
+  background: #ffffff;
+}
+
+.divRosterContainer > .divRosterTable {
+  height: 95%;
+  width: 100%;
+  overflow-y: auto;
+}
+
+.divRosterTable > table {
+  height: 100%;
+  width: 100%;
+  border-spacing: 0;
+  table-layout: fixed;
+}
+
+.divRosterTable > table > thead {
+  margin-top: 1px;
+}
+
+.divRosterTable > table > thead > tr > th {
+  font-size: 0.83em;
+}
+
+.divRosterTable > table > tbody > tr > td {
+  text-overflow: ellipsis;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.divRosterTable > table > tbody > tr:hover {
+  background-color: #ededed;
+}
+
+.divRosterContainer > .divPagination {
+  height: 5%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: solid #039be5 1px;
+}
+
+.divPagination > img {
+  height: 65%;
+  margin: 5px;
+}
+
+.divPagination > label {
+  font-size: 15px;
+}
+
+.divRosterContainer > table > tbody > tr > td > canvas {
+}

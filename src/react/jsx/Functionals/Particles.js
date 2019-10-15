@@ -109,7 +109,7 @@ class ParticlesBackground extends Component {
                         }
                     },
                     "retina_detect": true
-                }} />
+                }} style={{"position": "absolute"}} />
         )
     }
 }

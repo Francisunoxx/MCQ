@@ -1,0 +1,54 @@
+.divNotificationContainer {
+  height: 25%;
+  width: 20%;
+  background: #ffffff;
+  position: absolute;
+  top: 5%;
+  right: 18%;
+  border-radius: 3px;
+  border: solid 1px lightgray;
+  display: none;
+  flex-direction: column;
+  z-index: 1;
+}
+
+.divNotificationContainer > .divHeader {
+  height: 20%;
+  width: 100%;
+}
+
+.divHeader > p {
+  margin: 0;
+  margin-top: 2px;
+  position: absolute;
+  right: 2%;
+  cursor: pointer;
+}
+
+.divHeader > h5 {
+  margin-left: 10px;
+  color: #039be5;
+}
+
+.divNotificationContainer > .divBody {
+  height: 80%;
+  width: 100%;
+  overflow-y: auto;
+}
+
+.divBody > .divNotif {
+    width: 100%;
+    height: 20%;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.divNotif > .divCircle {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    margin-left: 3%;
+    margin-right: 5px;
+    background:#039be5;
+}

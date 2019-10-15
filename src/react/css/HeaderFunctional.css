@@ -1,88 +1,98 @@
-
 img {
-    height: 55%;
+  height: 55%;
 }
 
 .divHeaderContainer {
-    height: 6%;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row;
-    background-color: #039be5;
+  height: 6%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  background-color: #039be5;
 }
 
 .divHeaderNavigator {
-    width: 10%;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    margin-right: auto;
-    margin-left: 5px;
+  width: 15%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  margin-right: auto;
+  margin-left: 5px;
 }
 
-.divHeaderNavigator>h4 {
-    margin: 0;
-    color: white;
+.divHeaderNavigator > img {
+  margin: 5px;
 }
 
-.divHeaderNavigator>h4 {
-    margin-right: 15px;
+.headerIcon {
+  height: 65%;
+}
+
+.homeIcon {
+  height: 40%;
+}
+
+.divHeaderNavigator > h4 {
+  margin: 0;
+  color: white;
+}
+
+.divHeaderNavigator > h4 {
+  margin-left: 5px;
+  margin-right: 5px;
 }
 
 .divHeaderNotifications {
-    height: 100%;
-    width: 20%;
-    display: flex;
-    align-items: center;
-    margin-left: auto;
+  height: 100%;
+  width: 20%;
+  display: flex;
+  align-items: center;
+  margin-left: auto;
 }
 
-.divHeaderNotifications>div {
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.divHeaderNotifications > div {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.divHeaderNotifications>div:nth-child(3) {
-    display: flex;
-    flex: 1;
-    justify-content: center;
-    align-items: center;
+.divHeaderNotifications > .divNotification {
+  width: 25%;
+  margin-right: 5px;
 }
 
-.divHeaderNotifications>div:nth-child(1), .divHeaderNotifications>div:nth-child(2) {
-    width: 10%;
-    margin-right: 5px;
+.divNotification > .divCount {
+  height: 15px;
+  width: 17px;
+  border-radius: 3px;
+  background: #1a89ca;
+  position: absolute;
+  top: 1%;
+  right: 18%;
+  box-shadow: -4px 7px 7px 0px rgba(221, 223, 225, 1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 13px;
+  color: white;
+  cursor: pointer;
 }
 
-.divHeaderNotifications>div:nth-child(3) {
-    width: 80%;
-    margin-right: 5px;
+.divHeaderNotifications > .divName {
+  width: 65%;
+  height: 100%;
 }
 
-.divHeaderNotifications>div:nth-child(3) {
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
+.divName > h4 {
+  margin: 0;
+  color: white;
 }
 
-.divHeaderNotifications>div:nth-child(3)>h4 {
-    margin: 0;
-    color: white;
-}
-
-.divHeaderNotifications>div:nth-child(4) {
-    width: 10%;
-    margin-right: 5px;
-}
-
-.divHeaderNotifications>div>h3 {
-    margin-right: 5px;
-}
-
-.divHeaderNotifications>div>.imgLogout {
-    margin-left: auto;
+.divHeaderNotifications > .divNotification,
+.divHeaderNotifications > .divSettings,
+.divHeaderNotifications > .divLogout {
+  width: 11.66%;
+  height: 100%;
 }

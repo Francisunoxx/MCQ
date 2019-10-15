@@ -1,0 +1,7 @@
+.divLegends {
+  width: 100%;
+  flex: 0;
+  align-items: center;
+  justify-content: center;
+  background: #ffffff;
+}

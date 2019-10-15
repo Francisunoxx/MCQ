@@ -1,83 +1,133 @@
 .divDashboardSideBar {
-    height: 100%;
-    width: 15%;
+  height: 100%;
+  width: 15%;
+  background: #d2d2d2;
 }
 
-.divDashboardSideBar>.divMenu {
-    height: 30%;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    border-bottom: solid #039be5 1px;
+.divDashboardSideBar > .divMenu {
+  height: 30%;
+  width: 96%;
+  display: flex;
+  flex-direction: column;
+  border-radius: 3px;
+  margin-left: 3%;
+  margin-top: 3.2%;
+  background: white;
 }
 
-.divMenu>.divMenuContainer {
-    display: flex;
-    flex: 1;
-    justify-content: center;
-    align-items: center;
+.divMenu > .divMenuContainer {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
 }
 
-.divMenuContainer>.divIcon {
-    width: 20%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.divMenuContainer > .divIcon {
+  width: 20%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.divIcon>img {
-    height: 25px;
+.divIcon > img {
+  height: 25px;
 }
 
-.divMenuContainer>.divText {
-    width: 40%;
-    height: 100%;
-    display: flex;
-    align-items: center;
+.divMenuContainer > .divText {
+  width: 30%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  margin-right: auto;
 }
 
-.divText>h5 {
-    margin: 0;
-    color: black;
-    margin-left: 10px;
+.divText > h5 {
+  color: black;
+  margin: 0;
+  margin-left: 10px;
 }
 
-.divMenuContainer>.divNotif {
-    width: 40%;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.divMenuContainer > .divNotif {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.divNotif>img {
-    height: 25px;
-    margin-right: 5px;
+.divNotif > .divNotifBody {
+  width: 19px;
+  height: 17px;
+  border-radius: 50%;
+  margin-right: 5px;
 }
 
-.divDashboardSideBar>.divTasks {
-    height: 70%;
-    width: 100%;
+.divGreenNotif {
+  background: #4cb050;
+}
+
+.divRedNotif {
+  background: #e51b23;
+}
+
+.divPurpleNotif {
+  background: #9d27b0;
+}
+
+.notifLabel {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3px;
+  font-size: 13px;
+}
+
+.divDashboardSideBar > .divTasks {
+  height: 67%;
+  width: 96%;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  border-radius: 3px;
+  margin-left: 3%;
+  margin-top: 3%;
+  background: white;
+}
+
+.divTasks > .divHeader {
+  height: 8%;
+  display: flex;
+  align-items: center;
+  border-bottom: solid #039be5 1px;
+}
+
+.divHeader > h4 {
+  margin-left: 5px;
+}
+
+.divTasks > .divBody{
+    height: 89%;
     overflow-y: auto;
-    display: flex;
-    flex-direction: column;
 }
 
-.divTasks>.divTasksContainer {
-    display: flex;
-    flex: 1;
-    justify-content: center;
-    align-items: center;
+.divBody > .divTasksContainer {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
 }
 
-.divTasksContainer>.divTaskBody {
-    width: 100%;
-    display: flex;
-    justify-content: center;
+.divTasksContainer > .divTaskBody {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.divTaskBody>h5 {
-    margin-right: auto;
-    margin-left: 10px;
+.divTaskBody > h5 {
+  margin: 5%;
+  margin-right: auto;
 }
+

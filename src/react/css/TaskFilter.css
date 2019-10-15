@@ -1,0 +1,14 @@
+.divFilterBody {
+    height: 100%;
+    width: 100%;
+    background: #ffffff;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+  }
+
+  .input {
+    width: 100%;
+  }
